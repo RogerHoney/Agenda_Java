@@ -50,7 +50,7 @@ public class AdicionarContatoSer extends HttpServlet {
 		//imprime o nome do contato que foi adicionado
 		out.println("<html>");
 		out.println("<body>");
-		out.println("Contato " + contato.getNome() + "foi adicionado com sucesso");
+		out.println("Contato " + contato.getNome() + " foi adicionado com sucesso");
 		out.println("</body>");
 		out.println("</html>");
 	}

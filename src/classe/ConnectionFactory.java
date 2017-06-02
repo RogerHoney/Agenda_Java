@@ -11,7 +11,7 @@ public class ConnectionFactory {
 	public Connection getConnection(){
 		try {
 			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-			return DriverManager.getConnection("jdbc:mysql://localhost/turmamanha","root", "utd123456");
+			return DriverManager.getConnection("jdbc:mysql://localhost/turmamanha","boot", "utd123456");
 		} catch (SQLException e) {
 			
 			throw new RuntimeException(e);
